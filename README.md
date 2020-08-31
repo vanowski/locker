@@ -9,13 +9,13 @@ A prototype of a companion app for the smart bike lock. It implements static ver
 
 ## Setup
 ```
+npm i
+npm run start
+```
+
+Or, if you prefer:
+
+```
 yarn
 yarn start
-```
-
-or, if you feel vintage enough:
-
-```
-npm i
-npm start
 ```
