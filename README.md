@@ -9,7 +9,7 @@ A prototype of a companion app for the smart bike lock. It implements static ver
 
 ## Setup
 ```
-yarn i
+yarn
 yarn start
 ```
 
