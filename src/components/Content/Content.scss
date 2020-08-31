@@ -1,0 +1,13 @@
+@import "../../styles/colors";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $background-primary;
+
+  &__actions {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,16 @@
+$brand: #3C4953;
+$background-primary: #F1F6FC;
+$link: #7897BD;
+$inverse-primary: #FFFFFF;
+$inverse-secondary: #C5C9D2;
+$positive: #628754;
+$negative: #875454;
+$neutral: #546B87;
+$positive-darken: #4C6841;
+$negative-darken: #6B4242;
+$neutral-darken: #405166;
+
+:export {
+  brand: $brand;
+  inverse: $inverse-primary;
+}

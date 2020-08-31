@@ -1,0 +1,14 @@
+@import "styles/reset.scss";
+@import "styles/global.scss";
+
+.app {
+  width: 100vw;
+  height: 100vh;
+
+  &__body {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 3rem 1fr auto;
+    grid-auto-flow: column;
+  }
+}

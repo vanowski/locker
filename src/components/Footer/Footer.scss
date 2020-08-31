@@ -1,0 +1,27 @@
+@import "../../styles/colors.scss";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  &--locked {
+    background: $positive;
+    border-bottom: solid 0.25rem $positive-darken;
+  }
+
+  &--broken {
+    background: $negative;
+    border-bottom: solid 0.25rem $negative-darken;
+  }
+
+  &--disconnected {
+    background: $neutral;
+    border-bottom: solid 0.25rem $neutral-darken;
+  }
+
+  &__message {
+    color: $inverse-primary;
+  }
+}
